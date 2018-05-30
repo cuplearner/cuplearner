@@ -2,10 +2,11 @@ public class maoPaoSortDemo {
     public static void main(String[] args) {
         int [] a = new int[]{2,5,7,4,6,0,1,5,8};
         maoPao(a);
-        for (int i:a
-             ) {
-            System.out.println("i = " + i);
+        for (int i = 0; i < a.length; i++) {
+            int i1 = a[i];
+            System.out.println("i1 = " + i1);
         }
+
     }
 
     public static void maoPao(int [] a){
